@@ -6,7 +6,7 @@ In the previous three articles, we have explored the process of collecting data,
 
 Understanding the public opinion is crucial for the success of any business, and Twitter is often used by the public to express their opinions or feedbacks on certain brands, services or products. However, reading through the vast volumes of tweets manually can be time-consuming and tedious, making it difficult for businesses to identify tweets that require immediate attention. Fortunately, automated sentiment analysis can provide a solution to this problem. By using machine learning algorithms to classify the sentiment of the tweets, businesses can quickly identify critical tweets and areas that need improvement. For example, a business may want to monitor negative tweets related to their brand, so they can leverage this information to improve customer satisfication.
 
-In addition, Twitter sentiment analysis can also be used for other purposes. For example, if a business sees a surge in positive sentiment regarding a particular product, they may take advantage of this opportunity by creating content and promotion related to that product. Moreover, businesses can also use Twitter sentiment analysis to track the sentiment of their competitors. This allows businesses to stay informed on the current trends and adjust their strategies accordingly.
+In addition, sentiment analysis can also be used for other purposes. For example, if a business sees a surge in positive sentiment regarding a particular product, they may take advantage of this opportunity by creating content and promotion related to that product. Moreover, businesses can also use sentiment analysis to track the sentiment of their competitors. This allows businesses to stay informed on the current trends and adjust their strategies accordingly.
 
 ### Example Use Case: Sentiment Analysis for Tweets Related to Coursera
 
@@ -47,10 +47,11 @@ Below are some examples of positive tweets related to Coursera (spam tweets are 
 * Coursera, let's go :)
 
 Many of the positive tweets are related users completing the courses on Coursera. In addition, we can also see some tweets promoting Coursera courses. Notice that unlike the negative tweets, none of the positive tweets above contain critical issues. So by using our sentiment analysis application, we can determine which tweets to address as a priority. 
-
 Note: The current model can only classify tweet as positive or negative, so it is not able to handle neutral tweets (such as spam) properly.  
 
-In this post, we have explored how sentiment analysis can be an effective tool for businesses by providing valuable insights from the public. Additionally, we have demonstrated how sentiment analysis can be applied to identify tweets that require immediate attention using our Streamlit application.
+### Conclusion
+
+In this post, we have explored how sentiment analysis can be an effective tool for businesses by providing valuable insights from the public. Additionally, we have demonstrated how sentiment analysis can be applied to identify tweets that require immediate attention using our Streamlit application. Although some manual review may still be required, the use of sentiment analysis can help businesses to react more quickly.
 
 ### Relevant Links
 * Project Github: <u>[github.com/tmtsmrsl/TwitterSentimentAnalyzer](https://github.com/tmtsmrsl/TwitterSentimentAnalyzer)</u>  
