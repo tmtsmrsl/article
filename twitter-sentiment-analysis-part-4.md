@@ -60,7 +60,7 @@ In this section, let's suppose that we are a researcher who is interested in exp
 
 ![LGBT sentiment](tsa_lgbt_sentiment.png)
 
-The image above shows the overall sentiment of tweets related to LGBT in Indonesia, Germany and Sweden. After obtaining this information, we can also dive deeper into the factors that contribute to the overall sentiment in each country. Although the current application only allows us to retreive the latest tweets, it can be improved by allowing retreival of older tweets. By doing so, we will be able to see the trend of public's sentiment on a particular topic over a period of time.
+The image above shows the overall sentiment of tweets related to LGBT in Indonesia, Germany and Sweden. After obtaining this information, we can further dive deeper into the factors that might be correlated to the overall sentiment in each country. Although the current application only allows us to retreive the latest tweets, it can be improved by allowing retreival of older tweets. By doing so, we will be able to see the trend of public's sentiment on a particular topic over a period of time.
 
 ### Conclusion
 
