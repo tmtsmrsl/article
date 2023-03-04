@@ -1,6 +1,6 @@
 # End-to-End Machine Learning Project: Twitter Sentiment Analysis - Use Cases (Part 4)
 
-In the previous three articles, we have explored the process of collecting data, training our model and making an online application that can display the sentiment of the latest tweets related to a search term. In this article, we will examine the potential use cases of sentiment analysis in business and social science. We will also demonstrate a real example using our sentiment analysis application.
+In the previous three articles, we have explored the process of collecting data, training our model and making a Streamlit application that can display the sentiment of the latest tweets related to a search term. In this article, we will examine the potential use cases of sentiment analysis in business and social science. We will also demonstrate two real examples using our sentiment analysis application.
 
 ### Sentiment Analysis for Business
 
@@ -8,11 +8,7 @@ Understanding the public's opinion is crucial for the success of any business, a
 
 In addition, businesses can also use sentiment analysis for other purposes. For example, if a business sees a surge in positive sentiment regarding a particular product, they may take advantage of this opportunity by creating content and promotion related to that product. Moreover, businesses can also use sentiment analysis to track the sentiment of their competitors. This allows businesses to stay informed on the current trends and adjust their strategies accordingly.
 
-### Sentiment Analysis for Social Science
-
-In the field of social science, sentiment analysis can be used to analyze public's opinion on various subjects such as social issues, public policies, political parties, or political events. By applying sentiment analysis, policymakers and researchers can better understand the public's attitude on particular topics and make informed decisions based on their findings. For example, policymakers might want to gauge the public's response to the newly released policies, so they can evaluate the impact of the new policies and take necessary actions. Moreover, sentiment analysis are often used to predict the election results.
-
-### Demonstration: Sentiment Analysis for Tweets Related to Coursera
+### Demonstration 1: Sentiment Analysis for Tweets Related to Coursera
 
 Coursera is an online learning platform that offers courses from various universities and organizations. In this section, let's imagine that we are the CEO of Coursera and would like to improve the overall experience of Coursera users. To achieve this, we will use our sentiment analysis application to analyze the sentiment of latest tweets related to Coursera.
 
@@ -54,9 +50,21 @@ Many of the positive tweets are related users completing the courses on Coursera
 
 Note: The current model can only classify tweet as positive or negative, so it is not able to handle neutral tweets (such as spam) properly.  
 
+### Sentiment Analysis for Social Science
+
+In the field of social science, sentiment analysis can be used to analyze public's opinion on various subjects such as social issues, public policies, political parties, or political events. By applying sentiment analysis, policymakers and researchers can better understand the public's attitude on particular topics and make informed decisions based on their findings. For example, policymakers might want to gauge the public's response to the newly released policies, so they can evaluate the impact of the new policies and take necessary actions. Moreover, sentiment analysis are often used to predict the election results.
+
+### Demonstration 2: Sentiment Analysis for Tweets Related to LGBT
+
+In this section, let's suppose that we are a researcher who is interested in exploring the views on LGBT around the world. We can use sentiment analysis to examine the public's sentiment on LGBT and compare the overall sentiment in different countries. Since the current application cannot filter tweets by country, we will include the country name in our search term and assume that the retrieved tweets are from the respective country.
+
+![LGBT sentiment](tsa_lgbt_sentiment.png)
+
+The image above shows the overall sentiment of tweets related to LGBT in Indonesia, Germany and Sweden. After obtaining this information, we can also dive deeper into the factors that contribute to the overall sentiment in each country. Although the current application only allows us to retreive the latest tweets, it can be improved by allowing retreival of older tweets. By doing so, we will be able to see the trend of public's sentiment on a particular topic over a period of time.
+
 ### Conclusion
 
-In this post, we have explored how sentiment analysis can be applied in business and social science by providing valuable insights from the public. Additionally, we haved use our Streamlit applciation to demonstrate how businesses can use sentiment analysis to prioritze tweets that require immediate attention. Although some manual review may still be required, the use of sentiment analysis can help businesses to react more quickly.
+In this post, we have explored how sentiment analysis can be applied in business and social science by providing valuable insights from the public. We have also used our Streamlit applciation to demonstrate how businesses can use sentiment analysis to prioritze tweets that require immediate attention. Although some manual review may still be required, the use of sentiment analysis can help businesses to react more quickly. Additionally, we have shown how researchers can use sentiment analysis to study public's view on social issues (i.e. LGBT).
 
 ### Relevant Links
 
