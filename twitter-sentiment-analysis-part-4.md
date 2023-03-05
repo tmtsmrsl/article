@@ -56,7 +56,7 @@ In the field of social science, sentiment analysis can be used to analyze public
 
 ### Demonstration 2: Sentiment Analysis for Tweets Related to LGBT
 
-In this section, let's suppose that we are a researcher who is interested in exploring the views on LGBT around the world. We can use sentiment analysis to examine the public's sentiment on LGBT and compare the overall sentiment in different countries. Since the current application cannot filter tweets by country, we will include the country name in our search term and assume that the retrieved tweets are from the respective country.
+In this section, let's suppose that we are a researcher who is interested in exploring the views on LGBT around the world. We can use sentiment analysis to examine the public's sentiment on LGBT and compare the overall sentiment in different countries. Since the current application cannot filter tweets based on country, we will include the country name in our search term and assume that the retrieved tweets represent the public's view in that particular country.
 
 ![LGBT sentiment](tsa_lgbt_sentiment.png)
 
